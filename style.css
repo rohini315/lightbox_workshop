@@ -1,0 +1,65 @@
+#photos {
+  opacity: .88;
+  margin-top: 50px;
+}
+
+#photos img {
+  width: 230px;
+  float: left;
+  display: block;
+  margin: 2px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
+
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 550px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+}
+
+#photo-gallery {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+
+}
+
+body {
+  background-image: url("http://www.imgbox.net/wp-content/uploads/2015/12/white-brick-wall-texture.jpg");
+  background-size: cover;
+}
+
+#heading {
+  width: 350px;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.6;
+  border-style: solid;
+}
